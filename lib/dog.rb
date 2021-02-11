@@ -18,3 +18,7 @@ class Dog
   end
 
 end
+
+x = Dog.new("Shit")
+x.bark
+puts x.name
