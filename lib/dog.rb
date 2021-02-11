@@ -22,5 +22,5 @@ end
 x = Dog.new("Shit")
 x.bark
 puts x.name
-x.name("Poop")
+x.name = "Poop"
 puts x.name
