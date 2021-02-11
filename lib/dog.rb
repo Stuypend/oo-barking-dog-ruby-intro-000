@@ -1,1 +1,21 @@
-# Your code goes here!
+class Dog
+
+  def initialize(name, breed = "Mutt")
+    @name = name
+    @breed = breed
+  end
+
+  def name= (nom)
+    @name = nom
+  end
+
+  def name
+    return @name
+  end
+
+  def bark
+    puts "Woof!"
+  end
+
+end
+
