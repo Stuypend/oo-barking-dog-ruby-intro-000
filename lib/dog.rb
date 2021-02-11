@@ -1,9 +1,8 @@
 class Dog
 
-  def initialize(name)
-    @name = name
-    #@breed = breed
-  end
+def initialize(name)
+  @name = name
+end
 
   def name= (nom)
     @name = nom
@@ -19,8 +18,3 @@ class Dog
 
 end
 
-x = Dog.new("Shit")
-x.bark
-puts x.name
-x.name = "Poop"
-puts x.name
